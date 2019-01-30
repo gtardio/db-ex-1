@@ -1,0 +1,49 @@
+- ID - PRIMARY KEY | NOT NULL | AUTO INCREMENT | UNIQUE
+
+- Targa - VARCHAR (7) | NOT NULL
+
+- Marca -  | NOT NULL 
+
+- Colore - VARCHAR (20)
+
+- Optional - TEXT
+
+- Trazione - VARCHAR (10)
+
+- Cambio - DEFAULT 0
+
+- Modello - VARCHAR (20) | NOT NULL
+
+- Cilindrata - SMALLINT
+
+- CV - FLOAT 
+
+- KW - FLOAT
+
+- Garanzia - DEFAULT 
+
+- KM - MEDIUMINT
+
+- Immatricolazione - YEAR
+
+- Carburante - VARCHAR (10)
+
+- N Posti - TINYINT
+
+- N Porte - DEFAULT 
+
+- Prezzo - FLOAT| NOT NULL
+
+- Proprietari - TINYINT
+
+- Nazionalità - VARCHAR (15)
+
+- Lunghezza - FLOAT
+
+- Larghezza - FLOAT
+
+- Altezza - FLOAT
+
+- Cerchioni - TINYINT
+
+- Revisione - DEFAULT 0

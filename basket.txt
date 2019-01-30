@@ -1,0 +1,25 @@
+
+- ID | Primary Key AUTO_INCREMENT NOTNULL UNIQUE
+
+- Nome | VARCHAR(30) | NOTNULL
+
+- Cognome | VARCHAR(30)| NOTNULL
+
+- Data di nascita | Date | NOTNULL
+
+- Codice Fiscale | VARCHAR(12) NOTNULL UNIQUE
+
+- Carta identità | VARCHAR(10) NOTNULL UNIQUE
+
+- Città di Nascita | VARCHAR(30)
+
+- Età | TINYINT
+
+- Peso | FLOAT(5,2)
+
+- Altezza | FLOAT(5,2)
+
+- Squadra attuale | VARCHAR(20) | NOTNULL
+
+- Punti - TINYINT
+
